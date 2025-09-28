@@ -9,7 +9,7 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+  /* I'll give you this one for free */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,38 +68,26 @@ button.cancel {
   color: royalblue;
 }
 
-/*              */
+/* SOLUTION: */
 
 .modal{
   display: flex;
-  gap:15px;
+  padding:16px;
+  gap:16px;
 }
 
 .icon{
-  margin:15px;
   flex-shrink: 0;
-  
 }
 
-.close-button{
-
-  margin:15px;
-}
-
-.new-container{
-display: flex;
-flex-direction: column;
-
+.text{
+  margin-bottom: 16px;
 }
 
 .header{
-display: flex;
-justify-content: space-between;
-}
-
-
-.buttons-row{
   display: flex;
-  flex-direction: row;
-  margin:15px;
+  justify-content: space-between;
+  font-weight: 900;
+  margin-bottom: 8px;
+  font-size: 18px;
 }
